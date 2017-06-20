@@ -1,10 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import registerServiceWorker from './registerServiceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import registerServiceWorker from "./registerServiceWorker";
 
-import Home from './components/Home'
+import Home from "./components/Home";
 
-import './index.css';
+import "./index.css";
 
-ReactDOM.render(<Home />, document.getElementById('root'));
+ReactDOM.render(<Home />, document.getElementById("root"));
 registerServiceWorker();
