@@ -1,6 +1,7 @@
 import { createClient } from "contentful";
 import React, { Component } from "react";
-import moment from "moment";
+
+import PostListItem from "../PostListItem";
 
 import "./PostList.css";
 
@@ -35,20 +36,22 @@ class PostList extends Component {
   render() {
     const postNodes = this.state.posts.map(post => {
       return (
-        <li className="post-list-item">
-          <p className="post-date">
-            {moment(post.datePublished).format("MMMM D, YYYY")}
-          </p>
-          <h3 className="post-title">{post.title}</h3>
-          <h4 className="post-subtitle">{post.subtitle}</h4>
-        </li>
+        <PostListItem
+          date={post.datePublished}
+          title={post.title}
+          subtitle={post.subtitle}
+          key={post.title}
+        />
       );
     });
 
     return (
-      <ul className="post-list">
-        {postNodes}
-      </ul>
+      <div className="post-list-container">
+        <h2>Blog Posts</h2>
+        <ul className="post-list">
+          {postNodes}
+        </ul>
+      </div>
     );
   }
 }

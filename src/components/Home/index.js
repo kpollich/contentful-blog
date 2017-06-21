@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+import Footer from "../Footer";
 import Header from "../Header";
 import PostList from "../PostList";
 
@@ -8,9 +9,8 @@ class Home extends Component {
     return (
       <div>
         <Header />
-
-        <h2>Here are some posts</h2>
         <PostList />
+        <Footer />
       </div>
     );
   }

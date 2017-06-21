@@ -1,9 +1,17 @@
+.post-list-container {
+  padding: 1em;
+}
+
+.post-list-container > h2 {
+  margin: 0;
+}
+
 .post-list {
   list-style: none;
+  padding: 0;
 }
 
 .post-list-item {
-  border: 1px solid black;
-  margin: 1em;
+  margin: .5em;
   padding: .5em;
 }
