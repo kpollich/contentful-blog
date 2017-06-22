@@ -1,16 +1,15 @@
 import React, { Component } from "react";
 
 import Layout from "../Layout";
-import PostList from "../PostList";
 
-class Home extends Component {
+class About extends Component {
   render() {
     return (
       <Layout>
-        <PostList />
+        About Page
       </Layout>
     );
   }
 }
 
-export default Home;
+export default About;
