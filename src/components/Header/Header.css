@@ -2,3 +2,21 @@ header {
   padding: 1em;
   border-bottom: 1px solid #dadada;
 }
+
+.header-wrapper {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header-left {
+  flex: 1;
+}
+
+.nav-list li {
+  display: inline-block;
+  list-style: none;
+  margin: 1em;
+}

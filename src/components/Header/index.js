@@ -7,16 +7,23 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <Link to="/">
-          <h1>Kyle Pollich</h1>
-        </Link>
+        <div className="header-wrapper">
+          <div className="header-left">
 
-        <h3>Lancaster, PA Web Developer and Software Engineer</h3>
+            <Link to="/">
+              <h1>Kyle Pollich</h1>
+            </Link>
 
-        <ul className="nav-list">
-          <li><Link to="/about">About</Link></li>
-          <li><Link to="/projects">Projects</Link></li>
-        </ul>
+            <h3>Lancaster, PA Web Developer and Software Engineer</h3>
+          </div>
+
+          <ul className="nav-list">
+            <li><Link to="/about">About</Link></li>
+            <li><Link to="/projects">Projects</Link></li>
+            <li><Link to="/blog">Blog</Link></li>
+            <li><Link to="#">Resume</Link></li>
+          </ul>
+        </div>
       </header>
     );
   }

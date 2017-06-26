@@ -1,3 +1,6 @@
 main {
   flex: 1;
+  width: 80%;
+  margin: auto;
+  padding: 1em;
 }
