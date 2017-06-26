@@ -15,3 +15,13 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+a {
+  color: #607D8B;
+  text-decoration: none;
+  transition: color .2s
+}
+
+a:hover {
+  color: #37474F;
+}

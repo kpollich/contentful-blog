@@ -9,10 +9,7 @@ class Header extends Component {
       <header>
         <div className="header-wrapper">
           <div className="header-left">
-
-            <Link to="/">
-              <h1>Kyle Pollich</h1>
-            </Link>
+            <h1><Link to="/">Kyle Pollich</Link></h1>
 
             <h3>Lancaster, PA Web Developer and Software Engineer</h3>
           </div>
