@@ -21,11 +21,47 @@ class Home extends Component {
             or view my online <Link to="/resume">resume</Link>. I am always open
             to hearing about
             opportunities via <a href="mailto:kpollich1@gmail.com">email</a>.
-            You
-            can also find me on{" "}
-            <a href="https://twitter.com/kylepollich">Twitter</a> and{" "}
-            <a href="https://github.com/kpollich">GitHub</a>.
           </p>
+        </div>
+
+        <div className="flex-container-centered">
+          <div className="icon-links">
+            <a
+              href="https://github.com/kpollich"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="/icons/github.svg"
+                className="icon-link"
+                alt="GitHub Icon"
+              />
+            </a>
+
+            <a
+              href="https://twitter.com/kylepollich"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="/icons/twitter.svg"
+                className="icon-link"
+                alt="Twitter Icon"
+              />
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/kyle-pollich-b881a2102/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="/icons/linkedin.svg"
+                className="icon-link"
+                alt="LinkedIn Icon"
+              />
+            </a>
+          </div>
         </div>
       </Layout>
     );

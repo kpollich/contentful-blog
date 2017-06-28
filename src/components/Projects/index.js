@@ -6,7 +6,7 @@ class Projects extends Component {
   render() {
     return (
       <Layout>
-        Projects Page
+        Coming Soon
       </Layout>
     );
   }

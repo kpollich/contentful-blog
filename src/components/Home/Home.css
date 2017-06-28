@@ -1,6 +1,11 @@
 .home-blurb {
   font-size: 1.2em;
-  width: 70%;
+  width: 60%;
   text-align: center;
   line-height: 1.8em;
+}
+
+.icon-link {
+  height: 50px;
+  margin: 1em;
 }
