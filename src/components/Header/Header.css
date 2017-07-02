@@ -17,5 +17,12 @@ header {
 .nav-list li {
   display: inline-block;
   list-style: none;
+  font-size: 1.3em;
   margin: 1em;
+  border-bottom: 1px solid transparent;
+  transition: .2s border-bottom;
+}
+
+.nav-list li:hover {
+  border-bottom: 1px solid #607D8B;
 }
