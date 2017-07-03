@@ -2,11 +2,49 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 import Layout from "../Layout";
+import SkillCard from "../SkillCard";
 
 import "./Home.css";
 
 class Home extends Component {
   render() {
+    // TODO: Put these in Contentful
+    const skills = [
+      {
+        title: "Node.js",
+        details: [
+          "RESTful API's",
+          "Microservices",
+          "Scalability and Performance",
+          "Express, hapi"
+        ]
+      },
+      {
+        title: "Ruby on Rails",
+        details: [
+          "Full stack web applications",
+          "Pure Rails API's",
+          "Spree Commerce, JSONAPI Resources, ActiveAdmin"
+        ]
+      },
+      {
+        title: "Frontend",
+        details: ["HTML", "CSS", "JavaScript", "jQuery", "React.js"]
+      },
+      {
+        title: "Infrastructure and Operations",
+        details: [
+          "Linux server administration",
+          "AWS",
+          "Docker, AWS ECS",
+          "Git, GitHub, Travis, CircleCI"
+        ]
+      },
+      {
+        title: "Databases and Storage",
+        details: ["MySQL", "Postgres", "Redis", "Elasticsearch", "MongoDB"]
+      }
+    ];
     return (
       <Layout>
         <div className="flex-container-centered">
@@ -28,6 +66,12 @@ class Home extends Component {
               email
             </a>.
           </p>
+        </div>
+
+        <div className="flex-container-centered">
+          {skills.map(skill =>
+            <SkillCard title={skill.title} skills={skill.details} />
+          )}
         </div>
 
         <div className="flex-container-centered">
