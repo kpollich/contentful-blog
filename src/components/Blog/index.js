@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import React, { Component } from 'react'
 
-import Layout from "../Layout";
-import PostList from "../PostList";
+import Layout from '../Layout'
+import PostList from '../PostList'
 
 class Blog extends Component {
   render() {
@@ -9,8 +9,8 @@ class Blog extends Component {
       <Layout>
         <PostList />
       </Layout>
-    );
+    )
   }
 }
 
-export default Blog;
+export default Blog

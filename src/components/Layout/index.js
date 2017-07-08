@@ -1,8 +1,8 @@
-import React, { Component } from "react";
+import React, { Component } from 'react'
 
-import Header from "../Header";
+import Header from '../Header'
 
-import "./Layout.css";
+import './Layout.css'
 
 class Layout extends Component {
   render() {
@@ -14,8 +14,8 @@ class Layout extends Component {
           {this.props.children}
         </main>
       </div>
-    );
+    )
   }
 }
 
-export default Layout;
+export default Layout

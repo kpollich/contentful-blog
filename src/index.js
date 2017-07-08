@@ -1,15 +1,15 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import React from "react";
-import ReactDOM from "react-dom";
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-import registerServiceWorker from "./registerServiceWorker";
+import registerServiceWorker from './registerServiceWorker'
 
-import About from "./components/About";
-import Blog from "./components/Blog";
-import Home from "./components/Home";
-import Projects from "./components/Projects";
+import About from './components/About'
+import Blog from './components/Blog'
+import Home from './components/Home'
+import Projects from './components/Projects'
 
-import "./index.css";
+import './index.css'
 
 const app = (
   <Router>
@@ -20,7 +20,7 @@ const app = (
       <Route path="/projects" component={Projects} />
     </Switch>
   </Router>
-);
+)
 
-ReactDOM.render(app, document.getElementById("root"));
-registerServiceWorker();
+ReactDOM.render(app, document.getElementById('root'))
+registerServiceWorker()
