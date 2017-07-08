@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom'
 
 class PostListItem extends Component {
   render() {
-    const { date, title, subtitle, slug } = this.props
+    const { datePublished, title, subtitle, slug } = this.props
 
     return (
       <li className="post-list-item">
         <p className="post-date">
-          {moment(date).format('MMMM D, YYYY')}
+          {moment(datePublished).format('MMMM D, YYYY')}
         </p>
         <h3 className="post-title">
           <Link to={`/blog/${slug}`}>
