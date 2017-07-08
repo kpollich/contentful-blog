@@ -41,7 +41,7 @@ class About extends Component {
           <img
             className="about-img"
             src="/img/myface.jpg"
-            alt="A portrait style photo of Kyle Pollich's face"
+            alt="Kyle Pollich's face"
           />
         </div>
       </Layout>
