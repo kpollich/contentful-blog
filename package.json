@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bulma": "^0.4.3",
     "contentful": "^4.4.3",
     "moment": "^2.18.1",
     "prettier": "^1.4.4",

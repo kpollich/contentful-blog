@@ -1,29 +1,8 @@
-header {
-  padding: 1em;
-  font-size: 1.2em;
+.navbar-brand a {
+  color: #228a97;
+  font-size: 1.5em;
 }
 
-.header-wrapper {
-  width: 80%;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.header-left {
-  flex: 1;
-}
-
-.nav-list li {
-  display: inline-block;
-  list-style: none;
-  font-size: 1.3em;
-  margin: 1em;
-  border-bottom: 1px solid transparent;
-  transition: .2s border-bottom;
-}
-
-.nav-list li:hover {
-  border-bottom: 1px solid #607D8B;
+.navbar {
+  border-bottom: 1px solid #dadada;
 }
