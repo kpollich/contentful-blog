@@ -9,16 +9,16 @@ class PostListItem extends Component {
     const { datePublished, title, subtitle, slug } = this.props
 
     return (
-      <li className="post-list-item">
-        <p className="post-date">
+      <li className="content">
+        <p>
           {moment(datePublished).format('MMMM D, YYYY')}
         </p>
-        <h3 className="post-title">
+        <h3 className="title">
           <Link to={`/blog/${slug}`}>
             {title}
           </Link>
         </h3>
-        <h4 className="post-subtitle">
+        <h4 className="title">
           {subtitle}
         </h4>
       </li>

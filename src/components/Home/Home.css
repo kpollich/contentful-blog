@@ -1,1 +1,17 @@
+.icon-links {
+  text-align: center;
+}
 
+.icon-link {
+  height: 35px;
+  margin: 1em;
+  transition: fill .2s;
+}
+
+.icon-link:hover {
+  fill: #607D8B;
+}
+
+.home-blurb {
+  font-size: 1.2em;
+}

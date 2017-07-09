@@ -8,10 +8,10 @@ class About extends Component {
   render() {
     return (
       <Layout>
-        <div className="flex-container-centered">
-          <div className="about-container">
-            <h1 className="section-title">About</h1>
-            <p>
+        <div className="columns">
+          <div className="column">
+            <h1 className="title">About Me</h1>
+            <p className="content">
               Hello! My name is Kyle Pollich, and I am a 23 year old software
               engineer located in Lancaster, Pennsylvania. I graduated from
               Millersville University in 2015 with a degree in Computer Science.
@@ -20,14 +20,14 @@ class About extends Component {
               platforms, and RESTful API’s.
             </p>
 
-            <p>
+            <p className="content">
               I’m also a hobby programmer, and I love dabbling in new technology
               when I can. In my free time, I’ve been learning React.js and
               honing
               my front end skills.
             </p>
 
-            <p>
+            <p className="content">
               When I’m not writing code, I’m an avid guitarist and drummer as
               well
               as a huge fan of esports. You can usually catch me on weekends
@@ -38,12 +38,15 @@ class About extends Component {
             </p>
           </div>
 
-          <img
-            className="about-img"
-            src="/img/myface.jpg"
-            alt="Kyle Pollich's face"
-          />
+          <div className="column">
+            <img
+              className="about-img"
+              src="/img/myface.jpg"
+              alt="Kyle Pollich's face"
+            />
+          </div>
         </div>
+
       </Layout>
     )
   }

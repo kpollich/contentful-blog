@@ -42,11 +42,11 @@ class Post extends Component {
     return (
       <Layout>
         <div className="post-container">
-          <h1>{title}</h1>
-          <h2>{subtitle}</h2>
+          <h1 className="title">{title}</h1>
+          <h2 className="subtitle">{subtitle}</h2>
           <p>{moment(datePublished).format('MMMM D, YYYY')}</p>
 
-          <ReactMarkdown source={content} />
+          <ReactMarkdown source={content} className="content" />
         </div>
       </Layout>
     )
