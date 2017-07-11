@@ -10,9 +10,6 @@ class PostListItem extends Component {
 
     return (
       <li className="content">
-        <p>
-          {moment(datePublished).format('MMMM D, YYYY')}
-        </p>
         <h3 className="title">
           <Link to={`/blog/${slug}`}>
             {title}
@@ -21,6 +18,9 @@ class PostListItem extends Component {
         <h4 className="title">
           {subtitle}
         </h4>
+        <p>
+          {moment(datePublished).format('MMMM D, YYYY')}
+        </p>
       </li>
     )
   }
