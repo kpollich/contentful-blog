@@ -1,8 +1,13 @@
 .navbar-brand a {
-  color: #228a97;
-  font-size: 1.5em;
-}
+  font-size: 1.5em; }
+
+.navbar a {
+  color: #ECEFF4 !important; }
+
+.navbar a:hover {
+  color: #ECEFF4 !important;
+  background-color: #3B4252 !important; }
 
 .navbar {
-  border-bottom: 1px solid #dadada;
-}
+  background-color: #2E3440 !important;
+  border-bottom: 1px solid #D8DEE9; }

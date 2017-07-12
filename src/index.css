@@ -1,30 +1,18 @@
+html, body {
+  height: 100%; }
+
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', sans-serif;
-}
+  background-color: #ECEFF4;
+  font-family: 'Open Sans', sans-serif; }
 
-#root > [data-reactroot] {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-.flex-container-centered {
-  display: flex;
-  justify-content: center;
-}
+.section {
+  background-color: inherit !important; }
 
 a {
-  color: #607D8B;
-  text-decoration: none;
-  transition: color .2s;
-}
+  color: #5E81AC !important;
+  transition: all .2s !important; }
 
 a:hover {
-  color: #37474F;
-}
-
-.section-title {
-  font-weight: normal;
-}
+  color: #434C5E !important; }

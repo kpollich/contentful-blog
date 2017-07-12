@@ -11,6 +11,7 @@ import Post from './components/Post'
 import Projects from './components/Projects'
 
 import './index.css'
+import 'bulma/css/bulma.css'
 
 const app = (
   <Router>

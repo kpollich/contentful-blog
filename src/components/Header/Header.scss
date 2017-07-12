@@ -1,0 +1,19 @@
+@import "../../lib/nord.scss";
+
+.navbar-brand a {
+  font-size: 1.5em;
+}
+
+.navbar a {
+  color: $nord6 !important;
+}
+
+.navbar a:hover {
+  color: $nord6 !important;
+  background-color: $nord1 !important;
+}
+
+.navbar {
+  background-color: $nord0 !important;
+  border-bottom: 1px solid $nord4;
+}

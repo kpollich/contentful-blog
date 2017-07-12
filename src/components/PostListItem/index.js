@@ -2,8 +2,6 @@ import moment from 'moment'
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
-import 'bulma/css/bulma.css'
-
 class PostListItem extends Component {
   render() {
     const { datePublished, title, subtitle, slug } = this.props
