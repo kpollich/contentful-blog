@@ -5,15 +5,25 @@
 }
 
 .navbar a {
-  color: $nord6 !important;
+  color: $nord6;
 }
 
 .navbar a:hover {
-  color: $nord6 !important;
-  background-color: $nord1 !important;
+  color: $nord6;
+  background-color: $nord1;
 }
 
 .navbar {
-  background-color: $nord0 !important;
+  background-color: $nord0;
   border-bottom: 1px solid $nord4;
+}
+
+.navbar-burger:hover {
+  background-color: $nord0;
+}
+
+.navbar-burger {
+  span {
+    background-color: $nord4;
+  }
 }

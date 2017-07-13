@@ -1,5 +1,9 @@
 @import "./lib/nord.scss";
 
+html {
+  overflow-y: auto;
+}
+
 html, body {
   height: 100%;
 }
@@ -7,19 +11,19 @@ html, body {
 body {
   margin: 0;
   padding: 0;
-  background-color: $nord6;
+  background-color: #fff;
   font-family: 'Open Sans', sans-serif;
 }
 
 .section {
-  background-color: inherit !important;
+  background-color: inherit;
 }
 
 a {
-  color: $nord10 !important;
-  transition: all .2s !important;
+  color: $nord10;
+  transition: all .2s;
 }
 
 a:hover {
-  color: $nord2 !important;
+  color: $nord2;
 }

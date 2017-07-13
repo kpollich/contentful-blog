@@ -9,7 +9,7 @@ class Home extends Component {
   render() {
     return (
       <Layout>
-        <div className="container has-text-centered box">
+        <div className="container has-text-centered">
           <p className="content is-medium">
             Hello, I'm Kyle! I am a Software Engineer and Full Stack Web
             Developer currently located in Lancaster, Pennsylvania. I specialize

@@ -1,18 +1,21 @@
+html {
+  overflow-y: auto; }
+
 html, body {
   height: 100%; }
 
 body {
   margin: 0;
   padding: 0;
-  background-color: #ECEFF4;
+  background-color: #fff;
   font-family: 'Open Sans', sans-serif; }
 
 .section {
-  background-color: inherit !important; }
+  background-color: inherit; }
 
 a {
-  color: #5E81AC !important;
-  transition: all .2s !important; }
+  color: #5E81AC;
+  transition: all .2s; }
 
 a:hover {
-  color: #434C5E !important; }
+  color: #434C5E; }
