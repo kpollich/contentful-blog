@@ -16,7 +16,11 @@ class Home extends Component {
             Developer currently located in Lancaster, Pennsylvania. I specialize
             in Ruby on Rails and Javascript applications. If you're interested
             in working with me or knowing a bit more about what I do, check out
-            my <Link to="/about">about</Link> page or feel free to contact me
+            my{' '}
+            <Link to="/about">
+              about
+            </Link>{' '}
+            page or feel free to contact me
             via{' '}
             <a href="mailto:kpollich1@gmail.com">email</a>.
           </p>
@@ -85,17 +89,39 @@ class Home extends Component {
           </a>
         </div>
 
-        <div className="columns">
-          <div className="column">
-            <SkillCard title="DevOps" />
-          </div>
-          <div className="column">
-            <SkillCard title="Backend" />
-          </div>
-          <div className="column">
-            <SkillCard title="Frontend" />
+        <hr />
+
+        <div className="skills-container">
+          <h1 className="title has-text-centered">What I do</h1>
+
+          <div className="columns skillcards-container">
+            <div className="column">
+              <SkillCard
+                title="DevOps"
+                list={['AWS', 'Docker', 'Git', 'Solution Architecture']}
+              />
+            </div>
+            <div className="column">
+              <SkillCard
+                title="Backend"
+                list={[
+                  'Node.js',
+                  'Ruby on Rails',
+                  'REST APIs',
+                  'MySQL + Postgres',
+                  'Redis'
+                ]}
+              />
+            </div>
+            <div className="column">
+              <SkillCard
+                title="Frontend"
+                list={['HTML', 'CSS', 'Javascript', 'React.js']}
+              />
+            </div>
           </div>
         </div>
+
       </Layout>
     )
   }

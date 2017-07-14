@@ -10,7 +10,10 @@ class SkillCard extends Component {
           {this.props.title}
         </h1>
 
-        <p>Hello</p>
+        <ul className="is-marginless is-paddingless has-text-centered">
+          {this.props.list &&
+            this.props.list.map(skill => <li key={skill}>{skill}</li>)}
+        </ul>
       </div>
     )
   }

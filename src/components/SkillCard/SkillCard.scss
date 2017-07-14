@@ -5,7 +5,19 @@
   flex-direction: column;
   align-content: space-around;
   align-items: center;
-  padding-top: 1em;
-  height: 200px;
-  background-color: $nord7;
+  padding: 1em;
+  height: 290px;
+  background-color: $nord2;
+  color: $nord4;
+
+  h1 {
+    color: $nord5;
+  }
+
+  ul {
+    li {
+      margin: .5em;
+      font-size: 1.2em;
+    }
+  }
 }
