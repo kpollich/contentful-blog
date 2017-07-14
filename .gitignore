@@ -21,7 +21,4 @@ yarn-debug.log*
 yarn-error.log*
 
 # Ignore CSS files since we use Sass to preprocess CSS
-src/*.css
-src/components/**/*.css
-src/pages/**/*.css
-src/lib/nord.css
+src/**/*.css
