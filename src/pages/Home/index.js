@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
 import Layout from '../../components/Layout'
+import SkillCard from '../../components/SkillCard'
 
 import './Home.css'
 
@@ -21,6 +22,7 @@ class Home extends Component {
           </p>
         </div>
 
+        {/* TODO: Move IconLinks into a separate component to clean up this markup  */}
         <div className="icon-links">
           <a
             href="https://github.com/kpollich"
@@ -81,6 +83,18 @@ class Home extends Component {
               />
             </svg>
           </a>
+        </div>
+
+        <div className="columns">
+          <div className="column">
+            <SkillCard title="DevOps" />
+          </div>
+          <div className="column">
+            <SkillCard title="Backend" />
+          </div>
+          <div className="column">
+            <SkillCard title="Frontend" />
+          </div>
         </div>
       </Layout>
     )

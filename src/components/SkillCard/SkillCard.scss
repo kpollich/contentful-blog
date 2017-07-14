@@ -1,0 +1,11 @@
+@import "../../lib/nord.scss";
+
+.skillcard {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  align-items: center;
+  padding-top: 1em;
+  height: 200px;
+  background-color: $nord7;
+}
