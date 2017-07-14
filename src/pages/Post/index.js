@@ -35,7 +35,11 @@ class Post extends Component {
   render() {
     if (this.state.isLoading) {
       // TODO: Spinner
-      return <div />
+      return (
+        <Layout>
+          <div />
+        </Layout>
+      )
     }
 
     const { title, subtitle, content, datePublished } = this.state
