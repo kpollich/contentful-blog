@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
-import Layout from '../Layout'
-import PostList from '../PostList'
+import Layout from '../../components/Layout'
+import PostList from '../../components/PostList'
 
 class Blog extends Component {
   render() {

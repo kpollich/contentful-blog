@@ -3,7 +3,7 @@ import ReactMarkdown from 'react-markdown'
 import moment from 'moment'
 import { getPostBySlug } from '../../lib/contentful'
 
-import Layout from '../Layout'
+import Layout from '../../components/Layout'
 
 class Post extends Component {
   constructor(props) {

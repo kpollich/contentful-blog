@@ -7,11 +7,11 @@ import registerServiceWorker from './registerServiceWorker'
 import 'bulma/css/bulma.css'
 import './index.css'
 
-import About from './components/About'
-import Blog from './components/Blog'
-import Home from './components/Home'
-import Post from './components/Post'
-import Projects from './components/Projects'
+import About from './pages/About'
+import Blog from './pages/Blog'
+import Home from './pages/Home'
+import Post from './pages/Post'
+import Projects from './pages/Projects'
 
 const app = (
   <Router>

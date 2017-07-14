@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import Layout from '../Layout'
+import Layout from '../../components/Layout'
 
 import './About.css'
 
@@ -38,13 +38,11 @@ class About extends Component {
             </p>
           </div>
 
-          <div className="column">
-            <img
-              className="about-img"
-              src="/img/myface.jpg"
-              alt="Kyle Pollich's face"
-            />
-          </div>
+          <img
+            className="about-img"
+            src="/img/myface.jpg"
+            alt="Kyle Pollich's face"
+          />
         </div>
 
       </Layout>
