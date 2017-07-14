@@ -2,8 +2,6 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import registerServiceWorker from './registerServiceWorker'
-
 import 'bulma/css/bulma.css'
 import './index.css'
 
@@ -26,4 +24,3 @@ const app = (
 )
 
 ReactDOM.render(app, document.getElementById('root'))
-registerServiceWorker()
