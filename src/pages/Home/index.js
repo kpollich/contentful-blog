@@ -89,8 +89,6 @@ class Home extends Component {
           </a>
         </div>
 
-        <hr />
-
         <div className="skills-container">
           <h1 className="title has-text-centered">What I do</h1>
 
@@ -122,6 +120,30 @@ class Home extends Component {
           </div>
         </div>
 
+        <div className="where-i-work-container">
+          <h1 className="title has-text-centered">Where I Work</h1>
+
+          <h2 className="title has-text-centered">
+            <a href="http://shiftlabny.com/">Shift Lab </a>
+          </h2>
+
+          <p className="content is-medium has-text-centered">
+            Design minded development. Consulting, e-commerce platforms, and
+            a wide array of development services. At Shift, we provide a
+            compelling experience both for your users and your business.
+          </p>
+
+          <h2 className="title has-text-centered">
+            <a href="https://www.pubforge.work">Pubforge</a>
+          </h2>
+
+          <p className="content is-medium has-text-centered">
+            Pubforge is a full service coworking space located in beautiful
+            downtown Lancaster. With tons of natural light and a fully
+            stocked kitchen, this space promotes collaboration and community
+            unlike any other.
+          </p>
+        </div>
       </Layout>
     )
   }
