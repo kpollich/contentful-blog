@@ -1,27 +1,10 @@
-@import "../../lib/nord.scss";
-
-.icon-links {
-  text-align: center;
-}
-
-.icon-link {
-  height: 35px;
-  margin: 1em;
-  transition: fill .2s;
-}
-
-.icon-link:hover {
-  fill: $nord10;
-}
-
 .home-blurb {
   font-size: 1.2em;
 }
 
-.skills-container {
-  margin: 4em auto;
-}
-
-.skillcards-container {
-  margin-top: 1em;
+.where-i-work-container {
+  .column {
+    text-align: justify;
+    margin: 2em;
+  }
 }
