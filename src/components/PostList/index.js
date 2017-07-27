@@ -32,9 +32,9 @@ class PostList extends Component {
     return (
       <div className="post-list-container">
         <h1 className="title">Blog Posts</h1>
-        <ul className="post-list">
-          {postNodes}
-        </ul>
+        <h2 className="subtitle">Where I ramble and rant</h2>
+
+        {postNodes}
       </div>
     )
   }

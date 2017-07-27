@@ -8,7 +8,7 @@ class SkillsContainer extends Component {
   render() {
     return (
       <div className="skills-container">
-        <h1 className="title has-text-centered">What I do</h1>
+        <h1 className="title is-2 has-text-centered">What I do</h1>
 
         <div className="columns skillcards-container">
           <div className="column">

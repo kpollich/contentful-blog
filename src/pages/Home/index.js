@@ -30,11 +30,11 @@ class Home extends Component {
         <IconLinks />
         <SkillsContainer />
 
-        <h1 className="title has-text-centered">Where I Work</h1>
+        <h1 className="title is-2 has-text-centered">Where I Work</h1>
 
         <div className="columns where-i-work-container">
           <div className="column">
-            <h2 className="title has-text-centered">
+            <h2 className="title is-3 has-text-centered">
               <a
                 href="http://shiftlabny.com/"
                 target="_blank"
@@ -52,7 +52,7 @@ class Home extends Component {
           </div>
 
           <div className="column">
-            <h2 className="title has-text-centered">
+            <h2 className="title is-3 has-text-centered">
               <a
                 href="https://www.pubforge.work"
                 target="_blank"
