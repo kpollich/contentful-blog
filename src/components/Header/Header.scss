@@ -16,6 +16,10 @@
 .navbar {
   background-color: $nord2;
   border-bottom: 1px solid $nord4;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
 }
 
 .navbar-burger:hover {

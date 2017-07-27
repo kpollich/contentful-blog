@@ -11,7 +11,7 @@ class Layout extends Component {
         <Header />
 
         <section className="section">
-          <div className="container is-widescreen">
+          <div className="container">
             {this.props.children}
           </div>
         </section>
