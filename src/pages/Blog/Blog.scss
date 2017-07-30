@@ -1,0 +1,9 @@
+@import '../../lib/nord.scss';
+
+.blog-hero {
+  background-color: $nord9;
+
+  .title, .subtitle {
+    color: $nord6;
+  }
+}

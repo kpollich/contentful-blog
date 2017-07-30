@@ -25,15 +25,18 @@ class PostList extends Component {
   }
 
   render() {
-    const postNodes = this.state.posts.reverse().map(post => {
-      return <PostListItem {...post} key={post.slug} />
-    })
+    const postNodes = this.state.posts
+      .sort(
+        (first, second) =>
+          new Date(first.datePublished).getTime() <
+          new Date(second.datePublished).getTime()
+      )
+      .map(post => {
+        return <PostListItem {...post} key={post.slug} />
+      })
 
     return (
       <div className="post-list-container">
-        <h1 className="title">Blog Posts</h1>
-        <h2 className="subtitle">Where I ramble and rant</h2>
-
         {postNodes}
       </div>
     )

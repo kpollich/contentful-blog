@@ -9,12 +9,9 @@ class Layout extends Component {
     return (
       <div className="layout">
         <Header />
-
-        <section className="section">
-          <div className="container">
-            {this.props.children}
-          </div>
-        </section>
+        <div className="container outer">
+          {this.props.children}
+        </div>
       </div>
     )
   }
