@@ -5,6 +5,8 @@ import { getPostBySlug } from '../../lib/contentful'
 
 import Layout from '../../components/Layout'
 
+import './Post.css'
+
 class Post extends Component {
   constructor(props) {
     super(props)
@@ -45,12 +47,19 @@ class Post extends Component {
     const { title, subtitle, content, datePublished } = this.state
     return (
       <Layout>
-        <div className="post-container">
-          <h1 className="title">{title}</h1>
-          <h2 className="subtitle">{subtitle}</h2>
-          <p>{moment(datePublished).format('MMMM D, YYYY')}</p>
+        <div className="container">
+          <div className="columns is-mobile">
+            <div className="column is-8 is-offset-2">
+              <h1 className="title is-2">{title}</h1>
+              <h2 className="subtitle is-4">{subtitle}</h2>
+              <p>{moment(datePublished).format('MMMM D, YYYY')}</p>
 
-          <ReactMarkdown source={content} className="content" />
+              <ReactMarkdown
+                source={content}
+                className="content is-medium post-body"
+              />
+            </div>
+          </div>
         </div>
       </Layout>
     )
