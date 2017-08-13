@@ -1,0 +1,17 @@
+.token.number {
+  display: initial;
+  align-items: initial;
+  background-color: inherit;
+  border-radius: inherit;
+  font-size: inherit;
+  height: auto;
+  margin-right: initial;
+  min-width: initial;
+  padding: initial;
+  text-align: left;
+  vertical-align: initial;
+}
+
+.post-body {
+  line-height: 1.5;
+}

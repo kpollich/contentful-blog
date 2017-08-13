@@ -1,0 +1,13 @@
+.icon-links {
+  text-align: center;
+}
+
+.icon-link {
+  height: 35px;
+  margin: 1em;
+  transition: fill .2s;
+}
+
+.icon-link:hover {
+  fill: #5E81AC;
+}

@@ -1,0 +1,13 @@
+.skillcard {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  align-items: center;
+  padding: 1em;
+  height: 290px;
+  background-color: #D8DEE9;
+}
+.skillcard ul li {
+  margin: .5em;
+  font-size: 1.2em;
+}

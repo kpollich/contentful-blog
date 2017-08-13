@@ -33,12 +33,6 @@ class About extends Component {
               find me relaxing with my wife Alex and our Bengal cat Sterling.
             </p>
           </div>
-
-          <img
-            className="about-img"
-            src="/img/myface.jpg"
-            alt="Kyle Pollich's face"
-          />
         </div>
 
       </Layout>

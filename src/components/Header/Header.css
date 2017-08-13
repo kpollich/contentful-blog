@@ -1,0 +1,33 @@
+.navbar-brand a {
+  font-size: 1.5em;
+}
+
+.navbar a {
+  color: #ECEFF4;
+}
+
+.navbar a:hover {
+  color: #ECEFF4;
+  background-color: #3B4252;
+}
+
+.navbar {
+  background-color: #434C5E;
+  border-bottom: 1px solid #D8DEE9;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.navbar-burger:hover {
+  background-color: #2E3440;
+}
+
+.navbar-burger span {
+  background-color: #D8DEE9;
+}
+
+.navbar-item {
+  font-size: 1.1rem;
+}
