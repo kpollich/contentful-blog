@@ -3,8 +3,6 @@ import React, { Component } from 'react'
 import { getPosts } from '../../lib/contentful'
 import PostListItem from '../PostListItem'
 
-import './PostList.css'
-
 class PostList extends Component {
   constructor(props) {
     super(props)
