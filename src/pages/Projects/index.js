@@ -4,7 +4,13 @@ import Layout from '../../components/Layout'
 
 class Projects extends Component {
   render() {
-    return <Layout>Coming Soon</Layout>
+    return (
+      <Layout>
+        <div className="container" style={{ marginTop: '4em' }}>
+          Coming Soon
+        </div>
+      </Layout>
+    )
   }
 }
 

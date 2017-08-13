@@ -5,7 +5,7 @@ import './IconLinks.css'
 class IconLinks extends Component {
   render() {
     return (
-      <div className="icon-links">
+      <div className="icon-links container" style={{ marginTop: '2em' }}>
         <a
           href="https://github.com/kpollich"
           target="_blank"

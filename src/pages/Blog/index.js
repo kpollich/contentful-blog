@@ -9,7 +9,7 @@ class Blog extends Component {
   render() {
     return (
       <Layout>
-        <div className="hero blog-hero">
+        <div className="hero blog-hero" style={{ marginTop: '2em' }}>
           <div className="hero-body">
             <div className="container">
               <h1 className="title is-2">Blog Posts</h1>

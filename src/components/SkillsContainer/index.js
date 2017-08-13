@@ -7,7 +7,7 @@ import './SkillsContainer.css'
 class SkillsContainer extends Component {
   render() {
     return (
-      <div className="skills-container">
+      <div className="container skills-container">
         <h1 className="title is-2 has-text-centered">What I do</h1>
 
         <div className="columns skillcards-container">

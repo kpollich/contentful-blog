@@ -34,7 +34,7 @@ class PostList extends Component {
       })
 
     return (
-      <div className="post-list-container">
+      <div className="post-list-container container">
         {postNodes}
       </div>
     )
