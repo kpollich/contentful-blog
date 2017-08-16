@@ -15,7 +15,8 @@ class Home extends Component {
           className="hero is-fullheight is-fullwidth has-text-centered"
           style={{
             backgroundImage: 'url(/img/firewatch-blue.png)',
-            backgroundPositionY: 'center'
+            backgroundPositionY: 'center',
+            backgroundRepeat: 'no-repeat'
           }}
         >
           <div className="hero-body">
